@@ -1,3 +1,4 @@
+import auxiliars.PostgresException;
 import controller.BaseDades;
 import dades.Assignatura;
 
@@ -20,6 +21,8 @@ public class Main {
             System.out.println(db.getAssignatura("SPPRO"));
 
         } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (PostgresException e) {
             e.printStackTrace();
         }
     }

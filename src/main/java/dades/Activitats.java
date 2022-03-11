@@ -4,8 +4,8 @@ import org.postgresql.util.PGobject;
 
 import java.sql.SQLException;
 
-import static cat.iespaucasesnoves.spadd.ut4.auxiliars.EinesCadenes.parseValue;
-import static cat.iespaucasesnoves.spadd.ut4.auxiliars.EinesCadenes.tanca;
+import static auxiliars.EinesCadenes.parseValue;
+import static auxiliars.EinesCadenes.tanca;
 
 public class Activitats extends PGobject {
     private String titol;
